@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Bookstore App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This is a ReactJS app that displays books and different information related to the book.
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- Html/ JSX
+- css
+- javascript
+- Linter
+- Webpack
+- JSON
+- Gitflow
+- Babel
 
-### `npm start`
+## Link to project online
+- [Online Version](https://ceemos96.github.io/bookstore-app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- You can clone this repo by typing `git clone https://github.com/Ceemos96/bookstore-app` on your terminal.
 
-### `npm test`
+- Type `cd bookstore-app` to access the project on the terminal.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Setup
 
-### `npm run build`
+To get this project up and running, you should do the following; If you wish to run the project locally, please do the following:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1.- Clone the repository to your local machine. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2.- Install Node.js and npm if you haven't already. To install Node.js, follow the instructions on Node.js.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To install npm with the necessary dependencies, run the following command in your terminal: 
 
-### `npm run eject`
+npm install 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3.- Once you have the setup and the project locally, you can run the project using the following command in your terminal:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm run build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4.- and if you want to watch the changes live, run the following command (it will run the website on localhost:3000):
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+npm start
 
-## Learn More
+## Author
+### **Suleiman Olaide**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Github [@githubhandle](https://github.com/ceemos96)
+- Twitter [@twitterhandle](https://twitter.com/ceemos_dev)
+- LinkedIn [@LinkedIn](https://www.linkedin.com/in/suleiman-olaide-97689b154/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 🤝 Contributing
 
-### Code Splitting
+Contributions, issues, and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Feel free to check the [issues page](https://github.com/Ceemos96/bookstore-app/issues).
 
-### Analyzing the Bundle Size
+# Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Give a ⭐️ if you like this project!
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
