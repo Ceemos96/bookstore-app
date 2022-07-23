@@ -1,20 +1,10 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import InputBook from './InputBook';
 import Book from './Book';
 
 const Booklist = () => {
-  const list = [
-    {
-      title: 'Harry Potter',
-      author: 'J.K Rowling',
-      id: 1,
-    },
-    {
-      title: 'Twilight',
-      author: 'Stephanie Meyer',
-      id: 2,
-    },
-  ];
+  const list = useSelector((state) => state.books);
 
   return (
     <div>

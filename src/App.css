@@ -4,6 +4,8 @@
 ::before,
 ::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -15,7 +17,7 @@ body {
   width: 100vw;
   background-color: white;
   justify-content: space-around;
-  padding: 0 2rem;
+  padding: 1rem 2rem;
 }
 
 .nav-links {
@@ -23,6 +25,7 @@ body {
   list-style-type: none;
   width: 250px;
   justify-content: space-around;
+  padding-top: 0.7rem;
 }
 
 a.nav-title {
@@ -44,4 +47,120 @@ a.nav-title {
 
 .nav-item.active {
   color: rgb(3, 3, 3);
+}
+
+/* book styles */
+
+.book-item {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  margin: 1rem 2rem;
+  padding: 1rem;
+}
+
+.title {
+  width: 12.313rem;
+  height: 1.813rem;
+  margin: 0.188rem 20.188rem 0 0;
+  font-family: RobotoSlab, Arial, Helvetica, sans-serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.author {
+  width: 6.688rem;
+  height: 1.188rem;
+  margin: 0.25rem 0 0;
+  font-family: RobotoSlab, Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.book-actions {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.book-actions li {
+  height: 1.188rem;
+  font-family: RobotoSlab, Arial, Helvetica, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+  border-right: solid 1px black;
+  text-align: center;
+  padding: 0 0.5rem;
+}
+
+.book-actions li:nth-child(1) {
+  padding-right: 5px;
+  margin-left: -12px;
+}
+
+.book-actions li:nth-child(3) {
+  border: none;
+}
+
+.remove {
+  border: none;
+  background: none;
+  letter-spacing: normal;
+  color: #4386bf;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-family: RobotoSlab, Arial, Helvetica, sans-serif;
+}
+
+/* form styles */
+
+.form-container {
+  margin: 1rem 2rem;
+}
+
+.form-title {
+  height: 1.5rem;
+  margin: 1.813rem 32.75rem 1.188rem 0;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.18px;
+  color: var(--warm-grey);
+}
+
+.form-container input {
+  padding: 0.801rem;
+  width: 500px;
+  margin: 0.3rem 0.2rem;
+}
+
+.input-fields {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.input-fields button {
+  width: 11.5rem;
+  height: 2.813rem;
+  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  border: none;
+  margin: 0.3rem 0.2rem;
 }
