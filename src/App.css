@@ -96,7 +96,6 @@ a.nav-title {
 }
 
 .book-actions li {
-  width: 4.563rem;
   height: 1.188rem;
   font-family: RobotoSlab, Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
@@ -109,7 +108,7 @@ a.nav-title {
 
 .book-actions li:nth-child(1) {
   padding-right: 5px;
-  margin-left: -7px;
+  margin-left: -12px;
 }
 
 .book-actions li:nth-child(3) {

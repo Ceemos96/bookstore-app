@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 
-const ADD_BOOK = 'bookstore/books/ADD_BOOK';
-const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
+const ADD_BOOK = 'ADD_BOOK';
+const REMOVE_BOOK = 'REMOVE_BOOK';
 
 export const AddBook = (book) => ({
   type: ADD_BOOK,
@@ -33,7 +33,7 @@ const bookList = [
 
 const BooksReducer = (state = bookList, action) => {
   switch (action.type) {
-    case 'ADD_BOOK': {
+    case ADD_BOOK: {
       const addedBook = {
         id: uuidv4(),
         ...action.book,
@@ -43,7 +43,7 @@ const BooksReducer = (state = bookList, action) => {
       ];
     }
 
-    case 'REMOVE_BOOK':
+    case REMOVE_BOOK:
       return state.filter((books) => books.id !== action.id);
 
     default:
