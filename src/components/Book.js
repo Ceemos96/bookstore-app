@@ -3,7 +3,7 @@
 
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { RemoveBook } from '../redux/Books/Books.js';
+import { RemoveBook } from '../Redux/Books/Books.js';
 
 const Book = ({ data: { title, author, id } }) => {
   const dispatch = useDispatch();

@@ -1,6 +1,6 @@
 /* eslint-disable import/extensions */
 import { useSelector, useDispatch } from 'react-redux';
-import { StatusCheck } from '../redux/Categories/Categories.js';
+import { StatusCheck } from '../Redux/Categories/Categories.js';
 
 const Category = () => {
   const dispatch = useDispatch();
