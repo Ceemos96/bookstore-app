@@ -1,6 +1,7 @@
+/* eslint-disable import/extensions */
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux/';
-import { AddBook } from '../redux/Books/Books';
+import { AddBook } from '../redux/Books/Books.js';
 
 const InputBook = () => {
   const dispatch = useDispatch();

@@ -1,9 +1,9 @@
+/* eslint-disable import/extensions */
 /* eslint-disable react/prop-types */
-/* eslint-disable react/destructuring-assignment */
 
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { RemoveBook } from '../redux/Books/Books';
+import { RemoveBook } from '../redux/Books/Books.js';
 
 const Book = ({ data: { title, author, id } }) => {
   const dispatch = useDispatch();
