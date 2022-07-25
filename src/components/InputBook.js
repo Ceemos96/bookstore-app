@@ -32,7 +32,7 @@ const InputBook = () => {
   return (
     <form className="form-container" onSubmit={handleSubmit}>
       <h3 className="form-title">ADD NEW BOOK</h3>
-      <div className="input-fields">
+      <div className="input-fields data-field">
         <input
           required
           type="text"
