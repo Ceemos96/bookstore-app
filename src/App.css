@@ -50,19 +50,22 @@ a.nav-title {
 }
 
 /* book styles */
-
-.book-item {
-  display: flex;
-  flex-direction: column;
+.book-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   background: white;
   margin: 1rem 2rem;
   padding: 1rem;
 }
 
+.book-item {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  min-width: 40%;
+}
+
 .title {
-  width: 12.313rem;
-  height: 1.813rem;
-  margin: 0.188rem 20.188rem 0 0;
   font-family: RobotoSlab, Arial, Helvetica, sans-serif;
   font-size: 1.375rem;
   font-weight: bold;
@@ -125,6 +128,69 @@ a.nav-title {
   font-family: RobotoSlab, Arial, Helvetica, sans-serif;
 }
 
+.circular-progress-bar {
+  width: 15%;
+}
+
+.progress {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 100px;
+}
+
+.percentage {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 30px;
+  border-right: solid 1px gray;
+  padding-right: 7rem;
+}
+
+.percentage p:first-child {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #121212;
+}
+
+.percentage p:last-child {
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.5;
+  color: #121212;
+  font-size: 0.875rem;
+}
+
+.progress-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-left: 2rem;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.progress-info p:first-child {
+  font-size: 0.813rem;
+  font-weight: lighter;
+  font-family: 'Roboto Slab', serif;
+  color: #908d8d;
+}
+
+.progress-info p:nth-child(2) {
+  font-weight: 400;
+}
+
+.progress-info button {
+  background-color: #0290ff;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  width: 45%;
+}
+
 /* form styles */
 
 .form-container {
@@ -163,4 +229,5 @@ a.nav-title {
   background-color: #0290ff;
   border: none;
   margin: 0.3rem 0.2rem;
+  color: white;
 }
