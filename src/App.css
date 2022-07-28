@@ -49,6 +49,13 @@ a.nav-title {
   color: rgb(3, 3, 3);
 }
 
+.icon {
+  color: #0290ff;
+  border: solid rgb(197, 196, 196) 1px;
+  border-radius: 300px;
+  padding: 0.5rem;
+}
+
 /* book styles */
 .book-container {
   display: grid;
@@ -207,12 +214,12 @@ a.nav-title {
   font-style: normal;
   line-height: normal;
   letter-spacing: -0.18px;
-  color: var(--warm-grey);
+  color: rgb(124, 123, 123);
 }
 
 .form-container input {
   padding: 0.801rem;
-  width: 500px;
+  width: 43%;
   margin: 0.3rem 0.2rem;
 }
 
